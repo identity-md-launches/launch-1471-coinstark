@@ -1,0 +1,18 @@
+[
+  {
+    "state": "disconnected",
+    "violations": []
+  },
+  {
+    "state": "no wallet",
+    "violations": []
+  },
+  {
+    "state": "connected",
+    "violations": []
+  },
+  {
+    "state": "review",
+    "violations": []
+  }
+]

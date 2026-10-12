@@ -1,0 +1,86 @@
+{
+  "fixtureNotice": "RPC and wallet behavior simulated; no funds, signing keys or live broadcasts used.",
+  "results": [
+    {
+      "name": "Relative assets, metadata, reflow at 320/390/768/1440, and first-screen action",
+      "passed": true,
+      "durationMs": 488
+    },
+    {
+      "name": "No-wallet prompt, keyboard loop, Escape, focus return and FAQ navigation",
+      "passed": true,
+      "durationMs": 381
+    },
+    {
+      "name": "RPC failover, unavailable state and refresh recovery",
+      "passed": true,
+      "durationMs": 370
+    },
+    {
+      "name": "Wrong deployed bytecode blocks transactions",
+      "passed": true,
+      "durationMs": 520
+    },
+    {
+      "name": "Connection rejection is recoverable and wallet connection survives accountsChanged",
+      "passed": true,
+      "durationMs": 494
+    },
+    {
+      "name": "Wrong network switches explicitly to Ethereum",
+      "passed": true,
+      "durationMs": 496
+    },
+    {
+      "name": "Validation rejects addresses, zero, exponent, overprecision and excess balance; Max stays exact",
+      "passed": true,
+      "durationMs": 913
+    },
+    {
+      "name": "Transfer review, rejected signature, exact calldata, duplicate blocking and confirmation",
+      "passed": true,
+      "durationMs": 859
+    },
+    {
+      "name": "Account change invalidates an open review and an in-flight simulation",
+      "passed": true,
+      "durationMs": 1447
+    },
+    {
+      "name": "Allowance lookup, nonzero replacement guard, zero revocation and exact approval",
+      "passed": true,
+      "durationMs": 1174
+    },
+    {
+      "name": "Simulation revert and wallet bytecode mismatch never send",
+      "passed": true,
+      "durationMs": 598
+    },
+    {
+      "name": "Receipt failure keeps the hash, blocks resending and recovers to reverted",
+      "passed": true,
+      "durationMs": 713
+    },
+    {
+      "name": "Token import, clipboard copy, account detail and local disconnect",
+      "passed": true,
+      "durationMs": 604
+    },
+    {
+      "name": "Axe accessibility: entry page, no-wallet dialog, connected form and review",
+      "passed": true,
+      "durationMs": 4382
+    },
+    {
+      "name": "Text enlargement, RTL geometry and reduced-motion styles",
+      "passed": true,
+      "durationMs": 300
+    },
+    {
+      "name": "WebKit mobile main interaction and transfer review",
+      "passed": true,
+      "durationMs": 4664
+    }
+  ],
+  "limitations": []
+}

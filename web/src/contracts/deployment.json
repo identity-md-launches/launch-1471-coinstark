@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "launchId": "a06d95e6-5709-42a6-a854-9b66d0172e4a",
+  "chainId": 1,
+  "repoUrl": "https://github.com/identity-md-launches/launch-1471-coinstark",
+  "sourceCommit": "b57c0668b512b7aeb872992cfd18ec2e66599b75",
+  "attestationHash": "b2bfb89117d7c391baec70cdd32e13026ee1b5263042562197ff47b3dc5b7571",
+  "manifest": {
+    "kind": "custom_token",
+    "token": {
+      "contract": "Coinstark",
+      "name": "Coinstark",
+      "symbol": "COINSTARK",
+      "decimals": 18,
+      "constructorArgs": [],
+      "totalSupply": "1000000000000000000000000000"
+    },
+    "contracts": [],
+    "pool": {
+      "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336"
+    },
+    "economics": {
+      "poolBps": 8800,
+      "initialMarketCapWei": "2500000000000000000000",
+      "remainderTo": "0x12a7aad083cef06fef7c295514b52fc8bc81960d"
+    },
+    "notes": "Coinstark is a fixed-supply ERC-20 with 18 decimals. Its parameterless constructor mints all 1,000,000,000 COINSTARK to msg.sender, the deploying factory at launch. Transfers have no fees or burns, and there are no administrative powers or post-construction minting functions. No application contracts are deployed. pool.initialPrice records provenance only; the opening price is derived from economics.initialMarketCapWei and token.totalSupply."
+  },
+  "contracts": [
+    {
+      "name": "Coinstark",
+      "address": "0x1ca173188918409e15034c8696ce052b15cc7005",
+      "txHash": "0x124607a545a9980c90fe208d2dabd6d81529081287e738798ce072892aa043cc",
+      "blockNumber": 26178653,
+      "creationCodeHash": "dbc8d3c46ab052d42c16896035f58096689c1ac4a3be8f81763003566b84cde1",
+      "abiHash": "b48adcbf1a0e9b355d85120282552da2aa95ef6406529af056dbad779f13dccb"
+    }
+  ],
+  "poolKey": {
+    "currency0": "0x1ca173188918409e15034c8696ce052b15cc7005",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000"
+  },
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions."
+}

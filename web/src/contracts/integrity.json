@@ -1,0 +1,10 @@
+{
+  "sourceCommit": "b57c0668b512b7aeb872992cfd18ec2e66599b75",
+  "abiHash": "0xb48adcbf1a0e9b355d85120282552da2aa95ef6406529af056dbad779f13dccb",
+  "creationCodeHash": "0xdbc8d3c46ab052d42c16896035f58096689c1ac4a3be8f81763003566b84cde1",
+  "runtimeCodeHash": "0xa2642e53b87cf0a0905a8674392225e6b50e0e8a1b49aecb270270e49f9608eb",
+  "compiler": "0.8.26",
+  "optimizerRuns": 200,
+  "evmVersion": "cancun",
+  "bytecodeHash": "none"
+}
